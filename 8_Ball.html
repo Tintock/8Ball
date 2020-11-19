@@ -1,1 +1,26 @@
 <!DOCTYPE html>
+<html>
+<head>
+<title>Rob's 8Ball</title>
+</head>
+
+<body>
+
+
+    <p id="8ball"> </p>
+    <button onclick="ball_function()"></button>
+</body>
+
+<script>
+
+function _Random(min, max) {
+  return Math.floor(Math.random() * (max - min) ) + min;
+}
+
+function ball_function() {
+    int x = _Random(0,20);
+};
+
+</script>
+
+</html>
